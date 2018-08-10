@@ -17,5 +17,5 @@ PRODUCT_MODEL := LG-LS997
 PRODUCT_NAME := omni_ls997
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_COPY_FILES += device/lge/$(PRODUCT_DEVICE)/recovery.fstab:recovery/root/etc/twrp.flags
+PRODUCT_COPY_FILES += device/lge/$(PRODUCT_DEVICE)/twrp.flags:recovery/root/etc/twrp.flags
 PRODUCT_COPY_FILES += bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
